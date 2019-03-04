@@ -1,5 +1,8 @@
 exclude:
-- /apps/.*
-- /bin/.*
-- /docs/.*
-- /lib/.*
+  - /apps/.*
+  - /bin/.*
+  - /docs/.*
+include:
+  - /lib/plugins/embeddedjsp/src/.*
+  - /lib/xwork-core/src/.*
+  - /src/.*
